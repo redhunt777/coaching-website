@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner">
+        <div class="coachingNameAndIcon">
+            <div><img src="./assets/coaching.png" alt="coaching icon" class="iconImage"></div>
+            <div class="coachingName">Akshay Classes</div>
+        </div>
+        <div class="bannerMenu">
+                <a href="./index.html"><li class="menuItems">Home</li></a>
+                <a href="./class11.html"><li class="menuItems">Class 11</li></a>
+                <a href="./class12.html"><li class="menuItems">Class 12</li></a>
+                <a href="./bsc.html"><li class="menuItems">BSc</li></a>
+        </div>
+    </div>
+    <div class="dropdownMenu">
+        <a href="./syllabus.html"><li class="dropdownItems">Syllabus</li></a>
+        <a href="./notes.html"><li class="dropdownItems">Notes</li></a>
+        <a href="./practicals.html"><li class="dropdownItems">Practicals</li></a>
+        <a href="./ncert.html"><li class="dropdownItems">Ncert</li></a>
+        <a href="./pyqs.html"><li class="dropdownItems">Pyqs</li></a>
+    </div>
+
+    <div class="main">
+        <div class="welcomeFont"><h2>Welcome to Akshay Classes</h2></div>
+        <div class="changingText"><h3>Learn <span class="autoType"></span></h3></div>
+        <div class="paragraph"><p>We believe in building strong foundations that propel students towards academic success. We are here to support you in every step of the way.</p></div>
+    </div>
+    <div>
+        <h1 class="notes">Hand Written Notes</h1>
+    </div>
+
+    <div class="container">
+        <div class="template"><img src="./assets/Class 11.jpg" alt="Class 11" class="image">
+            <h3 style="margin-top: 8px;">Class 11</h3>
+            <h3>Physics Notes</h3>
+            <button class="button">Click Here</button>
+        </div>
+        <div class="template"><img src="./assets/class 12.jpg" alt="Class 11" class="image">
+            <h3 style="margin-top: 8px;">Class 12</h3>
+            <h3>Physics Notes</h3>
+            <button class="button">Click Here</button>
+        </div>
+        <div class="template"><img src="./assets/BSC.jpg" alt="Class 11" class="image">
+            <h3 style="margin-top: 8px;">BSc</h3>
+            <h3>Physics Notes</h3>
+            <button class="button">Click Here</button>
+        </div>
+    </div>
+    <footer class="footer">
+    <div class="containerFooter">
+        <div class="containerIcon">
+           <div><img src="./assets/instagram.png" alt="instagram icon" class="iconInstaThreadIn"></div>
+           <div class="footerFont">Instagram</div>
+        </div>
+        <div class="containerIcon">
+            <div><img src="./assets/linkedin.png" alt="instagram icon" class="iconInstaThreadIn"></div>
+            <div class="footerFont">Linkdin</div>
+        </div> 
+        <div class="containerIcon">
+            <div><img src="./assets/telegram.png" alt="instagram icon" class="iconInstaThreadIn"></div>
+            <div class="footerFont">telegram</div>
+         </div>  
+    </div>
+    <div class="copyrightFont">Copyright <span class="copyrightIcon"> </span> 2024</div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed(".autoType", {
+            strings: ["Kinematics", "Mechanics","Fluids Mechanics","Waves", "Electrostatic", "Optics", "Thermodynamics"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+        })
+    </script>
+</body>
+</html> 

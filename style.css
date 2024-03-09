@@ -1,0 +1,303 @@
+body, html ,h2 ,h3{
+    margin: 0;
+}
+
+a, button{
+    text-decoration: none;
+    box-sizing: none;
+    border: none;
+    background-color: transparent;
+}
+
+.coachingNameAndIcon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding-left: 2rem;
+
+}
+
+.iconImage{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.banner{
+    background-color: #222831;
+    width: 100%;
+    height: 5rem;
+    margin-left: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+}
+
+.coachingName{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lobster', sans-serif;
+}
+
+li{
+    list-style: none;
+}
+
+.bannerMenu{
+    display: flex;
+    align-items: center;
+    align-content: flex-end;
+    gap: 3rem;
+    padding-right: 3rem;
+}
+
+.menuItems{
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    cursor: pointer;
+}
+.menuItems:hover {   
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-2px);
+    text-decoration: underline;
+}
+
+.dropdownMenu{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    width: 100%;
+    background-color: #444444;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.dropdownItems{
+    font-size: 1rem;
+    font-family: 'Noto Serif', serif;
+    color: white;
+    cursor: pointer;
+}
+.dropdownItems:hover {   
+    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    transform: translateY(-1px);
+    text-decoration: underline;
+}
+
+.changingText{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #444444;
+    margin-top: 1.5rem;
+    padding-left: 3rem;
+
+}
+
+.autoType{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.4rem;
+    color: #444444;
+    margin-top: 0;
+}
+
+.main{
+    background-image: url(./assets/banner.png); 
+    background-repeat: no-repeat;  
+    background-size: cover;
+    width: 100%;
+    height: 40%;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.welcomeFont{
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    font-family: 'Noto Serif', serif;
+    font-size: 1.6rem;
+    color: #444444;
+    font-weight: 500;
+}
+
+.paragraph{
+    padding: 0;
+    margin: 0;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+    text-align: justify;
+    color: #444444;
+    max-width: 30%;
+    font-family: 'Noto Serif', serif;
+    size: 1rem;
+}
+
+.notes{
+    text-align: center;
+    padding: 0;
+    padding-top: 3.5rem;
+    color: #222831;
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.container{
+    display: flex;
+    gap: 8rem;
+    justify-content: center;
+    padding: 0;
+    padding-bottom: 3rem;
+}
+
+.image{
+    width: 250px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.template{
+    background-color: #eeeeee;
+    border-radius: 15px;
+    text-align: center;
+    size: 1rem;
+    color: #444444;
+    padding-bottom: 1rem;
+    font-family: 'Noto Serif', serif;
+    font-weight: 200;
+    cursor: pointer;
+}
+.template:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+  }
+
+.button{
+  background-color: #444444;
+  border-radius: 5px;
+  color: #eeeeee;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px 10px;
+  text-align: center;
+  transition: 200ms;
+  box-sizing: border-box;
+  border: 0;
+  font-size: 12px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.button:hover{
+  outline: 0;
+  background: #444444;
+  box-shadow: 0 0 0 2px rgba(0,0,0,.2), 0 3px 8px 0 rgba(0,0,0,.15);
+}
+
+.footer{
+    padding: 0;
+    background-color: #222831;
+    margin: 0;
+    margin-top: 2rem;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+
+} 
+
+.containerIcon{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    padding-top: 2rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+.iconInstaThreadIn{
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    padding-top: 1rem;
+}
+
+.footerFont{
+    font-size: 15px;
+    color: #eeeeee;
+    padding: 0;
+    padding-bottom: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+.footerFont:hover{
+    outline: 0;
+    text-decoration: underline;
+    transform: translateY(-1px);
+}
+
+.copyrightFont{
+    font-size: 12px;
+    color: #eeeeee;
+    padding: 0;
+    padding-bottom: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.copyrightIcon::after {
+    content: '\00a9'; 
+    color: #eeeeee;
+    font-size: 15px;
+    margin-left: 5px;
+  }
+
+.mainText{
+    color: #444444;
+    font-size: 1.5rem;
+    padding: 0;
+    margin: 0;
+    padding-top: 2.5rem;
+    padding-left: 3rem;
+    font-family: 'Noto Serif', serif;
+}
+
+.mainListItems{
+    list-style: disc;
+    font-size: 1.3rem;
+    font-family: 'Noto Serif', serif;
+    color: #444444;
+    padding-bottom: 0.5rem;
+}
+.mainListItems:hover{
+    transform: translateY(-1px);
+    text-decoration: underline;
+}
+
+
+.mainList{
+    padding: 0;
+    margin: 0;
+    padding-left: 5.5rem;
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
